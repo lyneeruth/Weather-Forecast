@@ -1,0 +1,84 @@
+body {
+  font-family: "Comfortaa", cursive;
+  color: darkslategray;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+p {
+  text-align: center;
+  font-size: 14px;
+}
+h1 {
+  padding: 7px;
+  margin-bottom: 0;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: rgb(245, 178, 95);
+  border-color: rgb(245, 178, 95);
+  color: darkslategray;
+}
+
+.btn:hover {
+  background-color: rgb(255, 219, 205);
+  color: darkslategray;
+}
+.container {
+  background-color: rgb(198, 232, 232);
+}
+.feature-city {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.feature-text {
+  padding-right: 0;
+  text-align: right;
+}
+.row1 {
+  background-color: rgb(135, 202, 203);
+}
+.row2 {
+  margin-top: 10px;
+}
+.row3 {
+  padding-top: 30px;
+}
+.row4 {
+  padding-top: 20px;
+  text-align: center;
+}
+.feature-text p {
+  text-align: right;
+  margin: 0;
+}
+.row3 p {
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+#display-cond {
+  text-transform: capitalize;
+}
+.feature-temp {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.activeTemp {
+  color: darkslategray;
+}
